@@ -7,5 +7,5 @@ FileReference >> memoryBinaryReadStream [
 	contents := contentsReadStream contents.
 	contentsReadStream close.
 	
-	^	ReadStream on: contents
+	^	MemoryReadStream on: contents
 ]
